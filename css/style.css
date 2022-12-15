@@ -1,0 +1,39 @@
+.add-btn i {
+    font-size: 1.2rem;
+    padding-top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #09c;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+nav li{
+    cursor: pointer;
+}
+
+.add-btn i:hover {
+    border-color: #fff;
+    background-color: #09c;
+    color: #fff;
+}
+
+
+#errName,#errPrice , #inp5 , #newCategory{
+    display: none;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+
+.table-scrollable {
+    overflow-x: auto;
+    max-width: 600px;
+    box-shadow: inset 0 0 5px rgba(150, 150 ,150,0.35);
+    margin: auto;
+}
+
+body{background: #1313;}
